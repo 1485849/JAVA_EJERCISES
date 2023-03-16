@@ -9,7 +9,12 @@ package mayor_menor_que_10;
  * @author Alumno
  */
 public class Mayor_menor_que_10 {
+    
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
+        // TODO code aplication logic here
         Scanner lector=new Scanner(System.in;
         System.out.println("ingrese el numero: ");
         int n=lector.nextInt();
@@ -35,6 +40,7 @@ public class Mayor_menor_que_10 {
         System.out.println(mayor);
         System.out.println("El mayor menor es: ");
         System.out.println(menor);
+        
     } 
      
 }
