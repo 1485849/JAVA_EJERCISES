@@ -3,7 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package mayor_menor_que_10;
-
+import java.util.Scanner;
+import java.io.*;
 /**
  *
  * @author Alumno
@@ -13,9 +14,11 @@ public class Mayor_menor_que_10 {
     /**
      * @param args the command line arguments
      */
+
+class Main {
     public static void main(String[] args) {
         // TODO code aplication logic here
-        Scanner lector=new Scanner(System.in;
+        //Scanner lector=new Scanner(System.in;
         System.out.println("ingrese el numero: ");
         int n=lector.nextInt();
         int [] Arreglo=new int [n];
