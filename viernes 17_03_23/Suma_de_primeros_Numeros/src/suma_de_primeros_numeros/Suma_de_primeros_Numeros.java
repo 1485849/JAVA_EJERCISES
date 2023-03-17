@@ -18,6 +18,18 @@ public class Suma_de_primeros_Numeros {
         Scanner name = new Scanner(System.in);
         System.out.println("ingrese su nombre");
         String nombre = name.nextLine();
-      
+        System.out.println("Hello "+nombre+ "!");
+        System.out.println("Ingrese un numero: ");
+        //*****************************************
+        int num =name.nextInt();
+        int sum = 0;
+        
+        for (int i = 0; i< 10; i++){
+            System.out.println(suma + "+"+ i);
+            suma = suma +i
+        }
+        
+        System.out.println(" La suma de los numeros es: ");
+    } 
     
 }
