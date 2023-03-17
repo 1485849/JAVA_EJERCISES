@@ -15,3 +15,13 @@ public class Testing_if_02 {
      */
     public static void main(String[] args) {
         Scanner name = new Scanner(System.in);
+        System.out.println("ingrese su nombre");
+        String nombre = name.nextLine();
+        System.out.println("Hello "+nombre+ "!");
+        System.out.println("Ingrese un numero: ");
+        //***********************************
+        int num =name.nextInt();
+        //Algoritmo if
+        if (num < 10){
+            System.out.println("hola "+nombre+" "+"el numero que ingresaste es menor que 10");
+  
