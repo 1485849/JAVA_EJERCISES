@@ -16,6 +16,11 @@ public class Positive_or_negative_number {
     public static void main(String[] args) {
         // TODO code application logic here
         // pedir que ingrese un numero y indicar si es positivo o negativo
+        Scanner name = new Scanner(System.in);
+        System.out.println("ingrese su nombre");
+        String nombre = name.nextLine();
+        System.out.println("Hello "+nombre+ "!");
+        
         Scanner teclado=new Scanner(System.in);
         int a;
         System.out.println("ingrese un numero: ");
