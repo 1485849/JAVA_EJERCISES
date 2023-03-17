@@ -19,8 +19,11 @@ public class Positive_or_negative_number {
         Scanner teclado=new Scanner(System.in);
         int a;
         System.out.println("ingrese un numero: ");
-        a=
-            
+        a=teclado.nextInt();
+        if(a>0)
+            System.out.println("el numero ingresado es positivo");
+        else
+            System.out.println("el numero ingresado es negativo");   
         }
     }
     
