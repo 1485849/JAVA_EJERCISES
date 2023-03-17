@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package positive_or_negative_number;
-
+import java.util.Scanner;
 /**
  *
  * @author Alumno
@@ -15,6 +15,13 @@ public class Positive_or_negative_number {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        // pedir que ingrese un numero y indicar si es positivo o negativo
+        Scanner teclado=new Scanner(System.in);
+        int a;
+        System.out.println("ingrese un numero: ");
+        a=
+            
+        }
     }
     
 }
