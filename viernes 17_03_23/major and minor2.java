@@ -24,4 +24,14 @@ public class Testing_if_02 {
         //Algoritmo if
         if (num < 10){
             System.out.println("hola "+nombre+" "+"el numero que ingresaste es menor que 10");
-  
+        }
+        else if (num == 10){
+            System.out.println("hola "+nombre+" "+"el numero que ingresaste es igual a 10");
+          }
+        else if (num > 10){
+            System.out.println("Hola "+nombre+" "+"el numero que ingresaste es mayor que 10");
+        }
+    } 
+    
+}
+
