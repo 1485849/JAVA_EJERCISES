@@ -19,6 +19,12 @@ public class Suma_de_numeros_pares {
     System.out.println("ingrese su nombre");
     String nombre = name.nextLine();
     System.out.println("Hello "+nombre+ "!");
+    //**************************************
+    Scanner number = new Scanner (System.in);
+    System.out.println("ingrese el numero: ");
+    int p = number.nextInt();
+    int suma = 0;
+    
     }
     
 }
