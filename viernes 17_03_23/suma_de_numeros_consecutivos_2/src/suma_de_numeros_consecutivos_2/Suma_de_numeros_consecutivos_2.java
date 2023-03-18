@@ -15,7 +15,7 @@ public class Suma_de_numeros_consecutivos_2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         Scanner name = new Scanner(System.in);
+        Scanner name = new Scanner(System.in);
         System.out.println("ingrese su nombre");
         String nombre = name.nextLine();
         System.out.println("Hello "+nombre+ "!");

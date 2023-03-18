@@ -22,12 +22,13 @@ public class Suma_de_numeros_pares {
     //**************************************
         Scanner number = new Scanner (System.in);
         System.out.println("ingrese el numero: ");
-        int p = number.nextInt();
+        int contpares = 2;
         int suma = 0;
     
-        for (int numero par = 0; numero par <= n; numero ++);
-            suma = suma + numero par; 
+        for (int p = 0; p <= n; p=+2);
+            suma = suma + contpares;
+            contpares = contpares + 2;
         }
-        System 
+        System.out.println("la suma de los numeros pares es: ") 
     
 }
