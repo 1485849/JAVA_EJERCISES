@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package suma_de_primeros_numeros;
-import java.util.*;
+import java.util.Scanner; // para poder ingresar un numero (libreria)
 /**
  *
  * @author Alumno
@@ -21,15 +21,18 @@ public class Suma_de_primeros_Numeros {
         System.out.println("Hello "+nombre+ "!");
         System.out.println("Ingrese un numero: ");
         //*****************************************
-        int num =name.nextInt();
-        int sum = 0;
+        Scanner number = new Scanner(System.in);
+        int n  = number.nextInt();
+        int suma = 0;
+      
         
-        for (int i = 0; i< 10; i++){
-            System.out.println(suma + "+"+ i);
-            suma = suma +i
+        
+        for (int i = 0; i<=n; i++){
+            suma = suma + i;
+       
         }
         
-        System.out.println(" La suma de los numeros es: ");
+        System.out.println(" La suma de los numeros es: "+ suma);
     } 
     
 }
