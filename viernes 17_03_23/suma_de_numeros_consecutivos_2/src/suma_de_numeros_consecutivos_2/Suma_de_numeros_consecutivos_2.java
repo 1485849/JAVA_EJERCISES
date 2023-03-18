@@ -20,7 +20,15 @@ public class Suma_de_numeros_consecutivos_2 {
         String nombre = name.nextLine();
         System.out.println("Hello "+nombre+ "!");
          //*****************************************
-
+        Scanner number =new Scanner(System.in);
+        System.out.println("ingrese el numero: ");
+        int n = number.nextInt();
+        int suma = 0;   // inicializamos la variable suma
+        
+        for (int numero = 1; numero<=n; numero++ ){
+            suma = suma + numero;
+        }
+        System.out.println(" la suma es: "+ suma);
     }
     
 }
