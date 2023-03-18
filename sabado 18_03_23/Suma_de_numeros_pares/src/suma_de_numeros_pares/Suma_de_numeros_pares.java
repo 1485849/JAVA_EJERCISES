@@ -15,16 +15,19 @@ public class Suma_de_numeros_pares {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    Scanner name = new Scanner(System.in);
-    System.out.println("ingrese su nombre");
-    String nombre = name.nextLine();
-    System.out.println("Hello "+nombre+ "!");
+        Scanner name = new Scanner(System.in);
+        System.out.println("ingrese su nombre");
+        String nombre = name.nextLine();
+        System.out.println("Hello "+nombre+ "!");
     //**************************************
-    Scanner number = new Scanner (System.in);
-    System.out.println("ingrese el numero: ");
-    int p = number.nextInt();
-    int suma = 0;
+        Scanner number = new Scanner (System.in);
+        System.out.println("ingrese el numero: ");
+        int p = number.nextInt();
+        int suma = 0;
     
-    }
+        for (int numero par = 0; numero par <= n; numero ++);
+            suma = suma + numero par; 
+        }
+        System 
     
 }
