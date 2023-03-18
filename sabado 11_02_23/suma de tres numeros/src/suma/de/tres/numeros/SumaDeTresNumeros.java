@@ -28,9 +28,7 @@ public class suma {
         System.out.println("la suma de los tres numeros es: " + suma);
         
         
-        
-        
-        
+    
     }
     
 }
