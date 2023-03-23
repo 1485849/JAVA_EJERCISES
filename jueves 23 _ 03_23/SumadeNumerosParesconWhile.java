@@ -4,6 +4,8 @@
  */
 package sumadenumerosparesconwhile;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Alumno
@@ -15,6 +17,23 @@ public class SumadeNumerosParesconWhile {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner name = new Scanner(System.in);
+        System.out.println("ingrese su nombre");
+        String nombre = name.nextLine();
+        System.out.println("Hello "+nombre+ "!");
     }
+        Scanner sc = new Scanner(System.in);
+        int contImpar = 0;
+        int contPar = 0;
+        do {
+            System.out.print("Ingrese un numero: ");
+            int num = sc.nexInt();
+            if(num%2==1) {
+                contImpar++;
+            }else {
+                contPar
+            }
+            
+}
     
 }
