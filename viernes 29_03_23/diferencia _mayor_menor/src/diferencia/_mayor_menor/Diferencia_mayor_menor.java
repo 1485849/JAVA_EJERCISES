@@ -15,10 +15,17 @@ public class Diferencia_mayor_menor {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int numero;
-        
-       System.out.println("por favor ingrese el primer numero");
-       System.out.println("ingrese el segundo numero");
+        class If4 {
+            
+            public static void main(String args[]){ 
+                
+                int x = 10;
+                        
+                if (x !=20){
+                    System.out.println(" ");
+                } 
+            }
+        }
     }
     
 }
