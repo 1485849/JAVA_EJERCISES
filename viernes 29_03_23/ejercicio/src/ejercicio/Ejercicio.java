@@ -15,9 +15,12 @@ public class Ejercicio {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("  j    a     v      v    a");
-        System.out.println("  j   a a     v    v    a a ");
-        
+        System.out.println("    j     a     v       v    a");
+        System.out.println("    j    a a     v     v    a a ");
+        System.out.println("    j   a   a     v   v    a   a");
+        System.out.println(" j  j  aaaaaaa     v v    aaaaaaa");
+        System.out.println("  jj  a       a     v    a       a");
+         
     }
     
 }
