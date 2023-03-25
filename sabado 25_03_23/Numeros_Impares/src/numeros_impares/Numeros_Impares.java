@@ -15,6 +15,15 @@ public class Numeros_Impares {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    }
+        Scanner leer = new Scanner (System.in);
+        System.out.println("los numeros pares");
+        int ra,r;
+        for (ra=1;ra<999;ra++);{
+             r= ra % 2;
+             if (r == 0){
+                 System.out.println("");
+            }
+            }}
+    
     
 }
