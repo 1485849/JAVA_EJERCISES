@@ -16,7 +16,7 @@ public class Morning_morning {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println(" morning, morning,morning ");
-        System.out.println("           hello, Have a good day");
+        System.out.println("hello, Have a good day");
         System.out.println("                   Oh! thank you");
         System.out.println(" ");
         System.out.println("                   You are great");
