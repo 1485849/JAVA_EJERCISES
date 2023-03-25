@@ -18,7 +18,7 @@ public class Morning_morning {
          System.out.println(" morning, morning,morning ");
         System.out.println("           hello, Have a good day");
         System.out.println("                   Oh! thank you");
-        System.out.prinln(" ");
+        System.out.println(" ");
         System.out.println("                   You are great");
         System.out.println("           This is my pleasure");
         System.out.println(" No; ... You are welcome");
