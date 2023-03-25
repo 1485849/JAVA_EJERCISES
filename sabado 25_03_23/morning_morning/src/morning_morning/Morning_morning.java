@@ -17,9 +17,11 @@ public class Morning_morning {
         // TODO code application logic here
          System.out.println(" morning, morning,morning ");
         System.out.println("           hello, Have a good day");
-        System.out.println("    j   a   a     v   v    a   a");
-        System.out.println(" j  j  aaaaaaa     v v    aaaaaaa");
-        System.out.println("  jj  a       a     v    a       a");
+        System.out.println("                   Oh! thank you");
+        System.out.prinln(" ");
+        System.out.println("                   You are great");
+        System.out.println("           This is my pleasure");
+        System.out.println(" No; ... You are welcome");
     }
     
 }
